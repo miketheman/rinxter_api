@@ -2,9 +2,12 @@
 require 'bundler/gem_tasks'
 require 'bundler/setup'
 require 'cane/rake_task'
+require 'rake/clean'
 require 'rspec/core/rake_task'
 require 'tailor/rake_task'
 require 'yard'
+
+CLEAN.include %w(.yardoc coverage doc pkg tmp)
 
 Cane::RakeTask.new(:quality) do |t|
   t.canefile = './.cane'
