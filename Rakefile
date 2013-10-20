@@ -4,6 +4,7 @@ require 'bundler/setup'
 require 'cane/rake_task'
 require 'rspec/core/rake_task'
 require 'tailor/rake_task'
+require 'yard'
 
 Cane::RakeTask.new(:quality) do |t|
   t.canefile = './.cane'
@@ -19,6 +20,8 @@ Tailor::RakeTask.new do |task|
     style.max_line_length 160, level: :warn
   end
 end
+
+YARD::Rake::YardocTask.new
 
 desc "Find notes in code"
 task :notes do
