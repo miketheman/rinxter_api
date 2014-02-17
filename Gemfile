@@ -1,13 +1,15 @@
 source 'https://rubygems.org'
- 
+
 gemspec
 
 group :development do
   gem 'guard'
-  gem 'guard-cane'
   gem 'guard-rake'
   gem 'guard-rspec'
+  gem 'guard-rubocop'
   gem 'guard-yard'
+  gem 'pry-rescue'
+  gem 'pry-stack_explorer'
   gem 'terminal-notifier-guard'
   gem 'travis-lint'
 end

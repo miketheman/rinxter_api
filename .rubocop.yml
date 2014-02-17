@@ -1,0 +1,28 @@
+# Stylistic choices for this project.
+# Attempst have been made to use good choices, increasing readability and
+# matching current idioms, but sometimes have to be overridden here.
+# Most have explanations, so if you wonder why this was done in a particular
+# manner, read the explanation before trying to change it.
+
+AllCops:
+  Includes:
+    - Gemfile
+    - Guardfile
+    - Rakefile
+    - rinxter_api.gemspec
+
+# Most projects I work on have this length restriction, as 80 charachters are
+# too few for some of the longer expressions with expressive variable names.
+# The alternative is to spend more time scaffolding helper methods that do a
+# single thing to shorten the code, but that adds layers of indirection and
+# complexity.
+# One might also use single-character variable assignment, but I believe that
+# is a foolish choice in any but the simplest of single-line iterator methods.
+LineLength:
+  Max: 160
+
+# This case determines the use of the %r for auto-escaping regexes with paths
+# in them. Since these largely come from external sources, and have little
+# bearing on the code included in the library, disable this style.
+RegexpLiteral:
+  Enabled: false

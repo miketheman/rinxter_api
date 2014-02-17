@@ -1,32 +1,33 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/rinxter_api/version', __FILE__)
+lib = File.expand_path('../lib', __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+require 'rinxter_api/version'
 
-Gem::Specification.new do |gem|
+# require File.expand_path('../lib/rinxter_api/version', __FILE__)
 
-  gem.name          = "rinxter_api"
-  gem.summary       = %q{A Ruby API Client wrapping Rinxter Data API calls}
-  gem.description   = %q{A nifty client to interact with the Rinxter data source for Roller Derby statistics}
-  gem.version       = RinxterApi::VERSION
-  gem.license       = "MIT"
+Gem::Specification.new do |spec|
+  spec.name          = 'rinxter_api'
+  spec.summary       = %q{A Ruby API Client wrapping Rinxter Data API calls}
+  spec.description   = %q{A nifty client to interact with the Rinxter data source for Roller Derby statistics}
+  spec.version       = RinxterApi::VERSION
+  spec.license       = 'MIT'
+  spec.homepage      = 'http://miketheman.github.io/rinxter_api'
 
-  gem.files         = `git ls-files`.split($\)
-  gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
-  gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
-  gem.require_paths = ["lib"]
+  spec.files         = `git ls-files`.split("\n")
+  spec.executables   = spec.files.grep(%r{^bin/}).map { |f| File.basename(f) }
+  spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
+  spec.require_paths = ['lib']
 
-  gem.required_ruby_version = '>= 1.9.2'
+  spec.required_ruby_version = '>= 1.9.3'
 
-  gem.add_dependency 'httparty', '~> 0.12.0'
+  spec.add_dependency 'httparty', '~> 0.13.0'
 
-  gem.add_development_dependency 'cane'
-  gem.add_development_dependency 'rake', '~> 10.0'
-  gem.add_development_dependency 'rspec'
-  gem.add_development_dependency 'simplecov'
-  gem.add_development_dependency 'tailor'
-  gem.add_development_dependency 'yard'
+  spec.add_development_dependency 'rake', '~> 10.0'
+  spec.add_development_dependency 'rubocop', '~> 0.18.1'
+  spec.add_development_dependency 'rspec'
+  spec.add_development_dependency 'simplecov'
+  spec.add_development_dependency 'yard'
 
-  gem.authors       = ["Mike Fiedler"]
-  gem.email         = ["miketheman@gmail.com"]
-  gem.homepage      = "http://miketheman.github.io/rinxter_api"
-
+  spec.authors       = ['Mike Fiedler']
+  spec.email         = ['miketheman@gmail.com']
 end

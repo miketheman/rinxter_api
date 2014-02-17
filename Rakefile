@@ -1,36 +1,27 @@
 #!/usr/bin/env rake
 require 'bundler/gem_tasks'
 require 'bundler/setup'
-require 'cane/rake_task'
 require 'rake/clean'
 require 'rspec/core/rake_task'
-require 'tailor/rake_task'
+require 'rubocop/rake_task'
 require 'yard'
 
 CLEAN.include %w(.yardoc coverage doc pkg tmp)
 
-Cane::RakeTask.new(:quality) do |t|
-  t.canefile = './.cane'
-end
-
 RSpec::Core::RakeTask.new(:spec)
 
-Tailor::RakeTask.new do |task|
-  task.file_set 'lib/**/*.rb', :code do |style|
-    style.max_line_length 160, level: :warn
-  end
-  task.file_set 'spec/**/*.rb', :specs do |style|
-    style.max_line_length 160, level: :warn
-  end
-end
+Rubocop::RakeTask.new(:style)
 
-YARD::Rake::YardocTask.new
+YARD::Rake::YardocTask.new(:doc)
 
-desc "Find notes in code"
+desc 'Find notes in code'
 task :notes do
-  puts `grep --exclude=Rakefile -r 'OPTIMIZE:\\|FIXME:\\|TODO:' .`
+  puts `grep --exclude=Rakefile -ir 'OPTIMIZE:\\|FIXME:\\|TODO:' lib`
 end
 
-task :test => [:tailor, :spec, :quality]
+desc 'Run the full suite. Only completes if all pass.'
+task full: [:clean, :test, :doc, :notes]
 
-task :default => :test
+task test: [:style, :spec]
+
+task default: :test
