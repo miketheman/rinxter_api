@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gemspec
 
-group :development do
+group :localdev do
   gem 'guard'
   gem 'guard-rake'
   gem 'guard-rspec'
