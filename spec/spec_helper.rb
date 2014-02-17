@@ -5,9 +5,6 @@ require 'rspec'
 require 'vcr'
 require 'webmock/rspec'
 
-# for any ad-hoc debugging
-require 'pry'
-
 # Include our code
 require 'rinxter_api'
 

@@ -12,13 +12,13 @@ Developed/tested on Ruby 2.1.0, may work on older versions. Requires at least 1.
 
 Require the `rinxter_api` gem in your project, and make calls to the API.
 The attempt is to return semi-formed Objects, responding to the attributes that Rinxter
-implements as method calls against the retruned Objects.
+implements as method calls against the returned Objects.
 
 See the `examples/` subdirectory for some ideas.
 
 ## Contributing
 
-This is a work in progress, whenever I have time to dedidcate to the project.
+This is a work in progress, whenever I have time to dedicate to the project.
 
 There are more dependencies in order to work on the code in this gem.
 They are listed in the `*.gemspec` and `Gemfile` files in the root of the project.
