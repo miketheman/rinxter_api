@@ -2,6 +2,12 @@
 
 A Ruby-based API client to retrieve data from the [Rinxter Repository API][rinxterapi]
 
+[![Build Status](https://travis-ci.org/miketheman/rinxter_api.png?branch=master)](https://travis-ci.org/miketheman/rinxter_api)
+[![Gem Version](https://badge.fury.io/rb/rinxter_api.png)](http://badge.fury.io/rb/rinxter_api)
+[![Code Climate](https://codeclimate.com/github/miketheman/rinxter_api.png)](https://codeclimate.com/github/miketheman/rinxter_api)
+[![Coverage Status](https://coveralls.io/repos/miketheman/rinxter_api/badge.png)](https://coveralls.io/r/miketheman/rinxter_api)
+[![Dependency Status](https://gemnasium.com/miketheman/rinxter_api.png)](https://gemnasium.com/miketheman/rinxter_api)
+
 ## Requirements
 
 * [HTTParty][] gem
