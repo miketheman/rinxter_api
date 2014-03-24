@@ -12,7 +12,8 @@ A Ruby-based API client to retrieve data from the [Rinxter Repository API][rinxt
 
 * [HTTParty][] gem
 
-Developed/tested on Ruby 2.1.0, may work on older versions. Requires at least 1.9.3.
+Developed/tested on Ruby 2.1.1.
+Requires at least 2.0.0, due to using keyword arguments.
 
 ## Usage
 
