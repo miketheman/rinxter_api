@@ -14,6 +14,11 @@ Rubocop::RakeTask.new(:style)
 
 YARD::Rake::YardocTask.new(:doc)
 
+desc 'Show undocumented objects'
+task 'doc:undoc' do
+  YARD::CLI::Stats.run('--list-undoc')
+end
+
 desc 'Find notes in code'
 task :notes do
   puts `grep --exclude=Rakefile -ir 'OPTIMIZE:\\|FIXME:\\|TODO:' lib`
