@@ -1,0 +1,210 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.rinxter.net/wftda/ds?leagueId=1&output=obj&type=skaterList
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: '[{"id":"1100","name":"9Killameter","number":"40","nameS":"9Killameter
+        (40)"},{"nameS":"Allifornication (310)","id":"328","name":"Allifornication","number":"310"},{"nameS":"Ames
+        to Maim (410)","id":"1473","name":"Ames to Maim","number":"410"},{"nameS":"Ana
+        Bollocks (00)","id":"36","name":"Ana Bollocks","number":"00"},{"nameS":"Ana
+        Tazeya (40kV)","id":"4633","name":"Ana Tazeya","number":"40kV"},{"nameS":"Anais
+        Ninja (101)","id":"54","name":"Anais Ninja","number":"101"},{"nameS":"Angela
+        Slamsbury (186)","id":"60","name":"Angela Slamsbury","number":"186"},{"nameS":"Ani
+        DiSpanco (32)","id":"59","name":"Ani DiSpanco","number":"32"},{"nameS":"Anita
+        Chainsaw (992)","id":"5384","name":"Anita Chainsaw","number":"992"},{"nameS":"Anne
+        Frankenstein (1818)","id":"48","name":"Anne Frankenstein","number":"1818"},{"nameS":"Anne
+        Phetamean (7)","id":"303","name":"Anne Phetamean","number":"7"},{"nameS":"Anya
+        Alnight (247)","id":"5281","name":"Anya Alnight","number":"247"},{"nameS":"Arson
+        Tina (2-2)","id":"301","name":"Arson Tina","number":"2-2"},{"nameS":"B-Zerk
+        (100%)","id":"336","name":"B-Zerk","number":"100%"},{"nameS":"Babe Brawlins
+        (87)","id":"2854","name":"Babe Brawlins","number":"87"},{"nameS":"BackAlley
+        Dred (45)","id":"5419","name":"BackAlley Dred","number":"45"},{"nameS":"Bad
+        As* Nat (360)","id":"4120","name":"Bad As* Nat","number":"360"},{"nameS":"Beatrix
+        Slaughter (42)","id":"12","name":"Beatrix Slaughter","number":"42"},{"nameS":"Beebee
+        Gun (177)","id":"3175","name":"Beebee Gun","number":"177"},{"nameS":"Beirut
+        Bombshell (1\/4)","id":"57","name":"Beirut Bombshell","number":"1\/4"},{"nameS":"Bella
+        Trips La Smashya (731)","id":"4637","name":"Bella Trips La Smashya","number":"731"},{"nameS":"Benedict
+        Cumbersmash ()","id":"4654","name":"Benedict Cumbersmash","number":""},{"nameS":"Beyonslay
+        (40)","id":"3","name":"Beyonslay","number":"40"},{"nameS":"Bimbo Slice (203)","id":"305","name":"Bimbo
+        Slice","number":"203"},{"nameS":"Bitch Cassidy (121)","id":"20","name":"Bitch
+        Cassidy","number":"121"},{"nameS":"Bonita Apple Bomb (4500)","id":"306","name":"Bonita
+        Apple Bomb","number":"4500"},{"nameS":"Bonnie Thunders (340)","id":"1","name":"Bonnie
+        Thunders","number":"340"},{"nameS":"Brazilian Nut (16)","id":"309","name":"Brazilian
+        Nut","number":"16"},{"nameS":"Brigitte Barhot (60)","id":"86","name":"Brigitte
+        Barhot","number":"60"},{"nameS":"Bruizin'' Brody (12)","id":"4156","name":"Bruizin''
+        Brody","number":"12"},{"nameS":"Brutal Noodle (689)","id":"5416","name":"Brutal
+        Noodle","number":"689"},{"nameS":"Buenos D. A$$ (138)","id":"5275","name":"Buenos
+        D. A$$","number":"138"},{"nameS":"Bunny McBones (703)","id":"45","name":"Bunny
+        McBones","number":"703"},{"nameS":"Byers Remorse (13%)","id":"1477","name":"Byers
+        Remorse","number":"13%"},{"nameS":"Caf Fiend (314)","id":"1478","name":"Caf
+        Fiend","number":"314"},{"nameS":"Cam Arrow (711)","id":"3174","name":"Cam
+        Arrow","number":"711"},{"nameS":"Care Bear Scare (321)","id":"4","name":"Care
+        Bear Scare","number":"321"},{"nameS":"Carmen Monoxide (12)","id":"8","name":"Carmen
+        Monoxide","number":"12"},{"nameS":"Cass Warfare (51)","id":"3192","name":"Cass
+        Warfare","number":"51"},{"nameS":"Celtic Thunder (21)","id":"278","name":"Celtic
+        Thunder","number":"21"},{"nameS":"Chairman Meow (1920)","id":"778","name":"Chairman
+        Meow","number":"1920"},{"nameS":"Char Shank Redemption (6)","id":"4640","name":"Char
+        Shank Redemption","number":"6"},{"nameS":"Cheeseburglar (7)","id":"42","name":"Cheeseburglar","number":"7"},{"nameS":"Cherry
+        Napalm (1.11)","id":"3191","name":"Cherry Napalm","number":"1.11"},{"nameS":"Chopstick
+        Murphy (215)","id":"4155","name":"Chopstick Murphy","number":"215"},{"nameS":"Cinderella
+        (3)","id":"4630","name":"Cinderella","number":"3"},{"nameS":"Claire D. Way
+        (1984)","id":"396","name":"Claire D. Way","number":"1984"},{"nameS":"Cookie
+        (12)","id":"3968","name":"Cookie","number":"12"},{"nameS":"Cork Rebel (32)","id":"4157","name":"Cork
+        Rebel","number":"32"},{"nameS":"Cutthroat KC (757)","id":"5277","name":"Cutthroat
+        KC","number":"757"},{"nameS":"D.A.R.Y.L. (1680)","id":"4154","name":"D.A.R.Y.L.","number":"1680"},{"nameS":"Dainty
+        Inferno (9)","id":"13","name":"Dainty Inferno","number":"9"},{"nameS":"Dale
+        Terete (77)","id":"3390","name":"Dale Terete","number":"77"},{"nameS":"Davey
+        Blockit (929)","id":"307","name":"Davey Blockit","number":"929"},{"nameS":"DeckHerH8r
+        (789)","id":"5283","name":"DeckHerH8r","number":"789"},{"nameS":"Demonica
+        Mars (27)","id":"28","name":"Demonica Mars","number":"27"},{"nameS":"Dirty
+        Rox-Tini (6)","id":"5282","name":"Dirty Rox-Tini","number":"6"},{"nameS":"Donna
+        Matrix (2)","id":"38","name":"Donna Matrix","number":"2"},{"nameS":"Double
+        Clutch (1-9)","id":"17","name":"Double Clutch","number":"1-9"},{"nameS":"Double
+        Tuff Oreo (161)","id":"5381","name":"Double Tuff Oreo","number":"161"},{"nameS":"E.D.
+        Sledgewick (017)","id":"4631","name":"E.D. Sledgewick","number":"017"},{"nameS":"Ela
+        Trick (i4i)","id":"4632","name":"Ela Trick","number":"i4i"},{"nameS":"Em Dash
+        (8212)","id":"40","name":"Em Dash","number":"8212"},{"nameS":"English Roughin''
+        (3NG)","id":"3391","name":"English Roughin''","number":"3NG"},{"nameS":"Erin
+        Watershow (0.8)","id":"3392","name":"Erin Watershow","number":"0.8"},{"nameS":"Essie
+        Ecks (1ON1)","id":"4635","name":"Essie Ecks","number":"1ON1"},{"nameS":"Evilicious
+        (420)","id":"23","name":"Evilicious","number":"420"},{"nameS":"Fast and Luce
+        (17)","id":"5380","name":"Fast and Luce","number":"17"},{"nameS":"Fisti Cuffs
+        (241)","id":"30","name":"Fisti Cuffs","number":"241"},{"nameS":"Fizzy Lola
+        (33)","id":"4153","name":"Fizzy Lola","number":"33"},{"nameS":"Flo It All
+        (15)","id":"4152","name":"Flo It All","number":"15"},{"nameS":"Flux Incapacitator
+        (88mph)","id":"4638","name":"Flux Incapacitator","number":"88mph"},{"nameS":"Full
+        Metal Jackie (M16)","id":"5420","name":"Full Metal Jackie","number":"M16"},{"nameS":"GalXC
+        (90)","id":"49","name":"GalXC","number":"90"},{"nameS":"Ginger Snap (80)","id":"2","name":"Ginger
+        Snap","number":"80"},{"nameS":"Greta Turbo (32)","id":"39","name":"Greta Turbo","number":"32"},{"nameS":"Gunder-n-Lightning
+        (55)","id":"3172","name":"Gunder-n-Lightning","number":"55"},{"nameS":"Gypsy
+        Rolls Lee (1x2x)","id":"1476","name":"Gypsy Rolls Lee","number":"1x2x"},{"nameS":"Hard
+        Anya (i4i)","id":"18","name":"Hard Anya","number":"i4i"},{"nameS":"Haulin''
+        Cass (10-4)","id":"37","name":"Haulin'' Cass","number":"10-4"},{"nameS":"Hela
+        Skelter (31)","id":"7","name":"Hela Skelter","number":"31"},{"nameS":"Hillbillie
+        Hustler (104)","id":"5285","name":"Hillbillie Hustler","number":"104"},{"nameS":"Hop
+        Devil (33)","id":"483","name":"Hop Devil","number":"33"},{"nameS":"Hyper Lynx
+        (404)","id":"44","name":"Hyper Lynx","number":"404"},{"nameS":"J-Rod (24)","id":"5378","name":"J-Rod","number":"24"},{"nameS":"Jensurgency
+        (187)","id":"52","name":"Jensurgency","number":"187"},{"nameS":"JJ Fury (159)","id":"3301","name":"JJ
+        Fury","number":"159"},{"nameS":"Joke1 (1)","id":"4642","name":"Joke1","number":"1"},{"nameS":"Kandy
+        Kakes (10)","id":"5","name":"Kandy Kakes","number":"10"},{"nameS":"KD Bang
+        (92)","id":"5286","name":"KD Bang","number":"92"},{"nameS":"Knockturn Ali
+        (355)","id":"46","name":"Knockturn Ali","number":"355"},{"nameS":"Lacerated
+        (113)","id":"749","name":"Lacerated","number":"113"},{"nameS":"Lady Fingers
+        (5)","id":"29","name":"Lady Fingers","number":"5"},{"nameS":"Lil Wheezy (21)","id":"5287","name":"Lil
+        Wheezy","number":"21"},{"nameS":"Lisbeth SaLAM''D her (0)","id":"3176","name":"Lisbeth
+        SaLAM''D her","number":"0"},{"nameS":"Livvie Smalls (23)","id":"5417","name":"Livvie
+        Smalls","number":"23"},{"nameS":"Luna Impact (29.5)","id":"11","name":"Luna
+        Impact","number":"29.5"},{"nameS":"Mad ScienceFist (6E23)","id":"1593","name":"Mad
+        ScienceFist","number":"6E23"},{"nameS":"MaMadusa (2A)","id":"762","name":"MaMadusa","number":"2A"},{"nameS":"Mayday
+        Malone (S0S)","id":"43","name":"Mayday Malone","number":"S0S"},{"nameS":"Mick
+        Swagger (503)","id":"1030","name":"Mick Swagger","number":"503"},{"nameS":"Miss
+        American Thighs (76)","id":"41","name":"Miss American Thighs","number":"76"},{"nameS":"Miss
+        Tea Maven (1706)","id":"1728","name":"Miss Tea Maven","number":"1706"},{"nameS":"Molly
+        Flogger (724)","id":"1474","name":"Molly Flogger","number":"724"},{"nameS":"Momo-A-Gogo
+        (5)","id":"1579","name":"Momo-A-Gogo","number":"5"},{"nameS":"Ms. Collie Check
+        (19)","id":"3707","name":"Ms. Collie Check","number":"19"},{"nameS":"Muffin
+        Topless (409)","id":"5418","name":"Muffin Topless","number":"409"},{"nameS":"Murder
+        City Mandy (1900)","id":"27","name":"Murder City Mandy","number":"1900"},{"nameS":"NameLes
+        (66)","id":"26","name":"NameLes","number":"66"},{"nameS":"Natasha Musqashya
+        (718)","id":"4641","name":"Natasha Musqashya","number":"718"},{"nameS":"Nikki
+        Nightrain (85)","id":"1472","name":"Nikki Nightrain","number":"85"},{"nameS":"OMG
+        WTF (753)","id":"15","name":"OMG WTF","number":"753"},{"nameS":"Ovarian Cyster
+        (12)","id":"764","name":"Ovarian Cyster","number":"12"},{"nameS":"Ow LaLa
+        (5''9)","id":"302","name":"Ow LaLa","number":"5''9"},{"nameS":"Ozzie Clobberpot
+        (910)","id":"5382","name":"Ozzie Clobberpot","number":"910"},{"nameS":"Papierschnitt
+        (500)","id":"6","name":"Papierschnitt","number":"500"},{"nameS":"Party CrasHer
+        (619)","id":"5276","name":"Party CrasHer","number":"619"},{"nameS":"Pickle
+        Juice (12)","id":"3708","name":"Pickle Juice","number":"12"},{"nameS":"Pink-e-Racer
+        (2)","id":"3173","name":"Pink-e-Racer","number":"2"},{"nameS":"Pippi Strongsocking
+        (69)","id":"51","name":"Pippi Strongsocking","number":"69"},{"nameS":"PL Anne
+        B (26)","id":"769","name":"PL Anne B","number":"26"},{"nameS":"Puss ''n Glutes
+        (999)","id":"53","name":"Puss ''n Glutes","number":"999"},{"nameS":"Raggedy
+        Animal (67)","id":"21","name":"Raggedy Animal","number":"67"},{"nameS":"Rapid
+        ArrhythMia (101)","id":"5280","name":"Rapid ArrhythMia","number":"101"},{"nameS":"Rat-A-Tat
+        Kat (44)","id":"19","name":"Rat-A-Tat Kat","number":"44"},{"nameS":"Rocket
+        (3500)","id":"1475","name":"Rocket","number":"3500"},{"nameS":"Rocks! (74)","id":"5377","name":"Rocks!","number":"74"},{"nameS":"Roxy
+        Dallas (41)","id":"4112","name":"Roxy Dallas","number":"41"},{"nameS":"Roxy
+        Gibrawltar (264)","id":"34","name":"Roxy Gibrawltar","number":"264"},{"nameS":"Rushin''
+        Revolution (1917)","id":"25","name":"Rushin'' Revolution","number":"1917"},{"nameS":"S''More
+        O''This (781)","id":"5284","name":"S''More O''This","number":"781"},{"nameS":"Scarlett
+        Rage (75)","id":"1522","name":"Scarlett Rage","number":"75"},{"nameS":"Score
+        of Babylon (1887)","id":"10","name":"Score of Babylon","number":"1887"},{"nameS":"Sexy
+        Slaydie (68C)","id":"61","name":"Sexy Slaydie","number":"68C"},{"nameS":"ShadowboxHER
+        (25)","id":"1724","name":"ShadowboxHER","number":"25"},{"nameS":"Sk8 Crime
+        (50)","id":"535","name":"Sk8 Crime","number":"50"},{"nameS":"Skinner Alive
+        (85)","id":"4629","name":"Skinner Alive","number":"85"},{"nameS":"Skinny Guinea
+        (9)","id":"5278","name":"Skinny Guinea","number":"9"},{"nameS":"Slaughter
+        (1307)","id":"2562","name":"Slaughter","number":"1307"},{"nameS":"Smearin
+        Off Ice (716)","id":"4636","name":"Smearin Off Ice","number":"716"},{"nameS":"Speed
+        McQueen (36DD)","id":"14","name":"Speed McQueen","number":"36DD"},{"nameS":"Splint-Her
+        (2x4)","id":"311","name":"Splint-Her","number":"2x4"},{"nameS":"Spork Chop
+        (213)","id":"4113","name":"Spork Chop","number":"213"},{"nameS":"Steel Magnolia
+        (61)","id":"50","name":"Steel Magnolia","number":"61"},{"nameS":"Stevie Kicks
+        (17)","id":"47","name":"Stevie Kicks","number":"17"},{"nameS":"Straight Razor
+        (X)","id":"32","name":"Straight Razor","number":"X"},{"nameS":"Sunshine Skate
+        (83)","id":"549","name":"Sunshine Skate","number":"83"},{"nameS":"Suzy Hotrod
+        (55)","id":"35","name":"Suzy Hotrod","number":"55"},{"nameS":"Swede Hurt (46)","id":"33","name":"Swede
+        Hurt","number":"46"},{"nameS":"Sweet Sherry Pie (201)","id":"31","name":"Sweet
+        Sherry Pie","number":"201"},{"nameS":"Sweets McBacon (35)","id":"1727","name":"Sweets
+        McBacon","number":"35"},{"nameS":"Tail Gunner Flo (B52)","id":"16","name":"Tail
+        Gunner Flo","number":"B52"},{"nameS":"Terror Byte (403)","id":"310","name":"Terror
+        Byte","number":"403"},{"nameS":"Thunder Vittles  (1337)","id":"777","name":"Thunder
+        Vittles ","number":"1337"},{"nameS":"Tip-Her Gore (NC17)","id":"833","name":"Tip-Her
+        Gore","number":"NC17"},{"nameS":"Tough Muffin (810)","id":"22","name":"Tough
+        Muffin","number":"810"},{"nameS":"Tuff Mama (224)","id":"775","name":"Tuff
+        Mama","number":"224"},{"nameS":"UNK (3000)","id":"3190","name":"UNK","number":"3000"},{"nameS":"Veronica
+        Ache (1940)","id":"1480","name":"Veronica Ache","number":"1940"},{"nameS":"Verve
+        (K9)","id":"5279","name":"Verve","number":"K9"},{"nameS":"Vicious Van GoGo
+        (1853)","id":"4643","name":"Vicious Van GoGo","number":"1853"},{"nameS":"Violet
+        Knockout (4)","id":"287","name":"Violet Knockout","number":"4"},{"nameS":"Voldeloxx
+        (934)","id":"5383","name":"Voldeloxx","number":"934"}]'
+    http_version: 
+  recorded_at: Mon, 24 Mar 2014 01:51:38 GMT
+- request:
+    method: get
+    uri: http://www.rinxter.net/wftda/ds?output=obj&skaterId=35&type=skater
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '248'
+    body:
+      encoding: UTF-8
+      string: '[{"id":"35","name":"Suzy Hotrod","number":"55","abbr":"suzy_hotrod","image":"\/imgs\/skaters\/logo_suzy_hotrod.jpg","primaryLeague":"Gotham
+        Girls Roller Derby","primaryLeagueAbbr":"GGRD","primaryLeagueId":1,"seasons":["2013","2012","2011","2010"]}]'
+    http_version: 
+  recorded_at: Mon, 24 Mar 2014 01:51:38 GMT
+recorded_with: VCR 2.8.0
