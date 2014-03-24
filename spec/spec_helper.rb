@@ -1,7 +1,10 @@
-require 'coveralls'
 require 'simplecov'
+require 'coveralls'
 
-Coveralls.wear!
+SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter[
+  SimpleCov::Formatter::HTMLFormatter,
+  Coveralls::SimpleCov::Formatter
+]
 SimpleCov.start
 
 require 'rspec'
@@ -38,6 +41,7 @@ VCR.configure do |c|
 
   # Remove any test-specific data
   c.before_record do |i|
+    i.response.headers.delete('Date')
     i.response.headers.delete('Set-Cookie')
   end
 end
