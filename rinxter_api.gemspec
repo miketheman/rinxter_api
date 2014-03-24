@@ -7,8 +7,8 @@ require 'rinxter_api/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'rinxter_api'
-  spec.summary       = %q{A Ruby API Client wrapping Rinxter Data API calls}
-  spec.description   = %q{A nifty client to interact with the Rinxter data source for Roller Derby statistics}
+  spec.summary       = %q(A Ruby API Client wrapping Rinxter Data API calls)
+  spec.description   = %q(A nifty client to interact with the Rinxter data source for Roller Derby statistics)
   spec.version       = RinxterApi::VERSION
   spec.license       = 'MIT'
   spec.homepage      = 'http://miketheman.github.io/rinxter_api'
@@ -23,7 +23,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'httparty', '~> 0.13.0'
 
   spec.add_development_dependency 'rake', '~> 10.0'
-  spec.add_development_dependency 'rubocop', '~> 0.18.1'
+  spec.add_development_dependency 'rubocop', '~> 0.19.1'
   spec.add_development_dependency 'rspec'
   spec.add_development_dependency 'simplecov'
   spec.add_development_dependency 'yard'
