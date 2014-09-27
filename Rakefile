@@ -10,7 +10,7 @@ CLEAN.include %w(.yardoc coverage doc pkg tmp)
 
 RSpec::Core::RakeTask.new(:spec)
 
-Rubocop::RakeTask.new(:style)
+RuboCop::RakeTask.new(:style)
 
 YARD::Rake::YardocTask.new(:doc)
 
