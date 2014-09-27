@@ -11,13 +11,6 @@ AllCops:
     - Rakefile
     - rinxter_api.gemspec
 
-# I don't expect to use any Unicode/UTF-8 characters in the codebase, and
-# testing Ruby version 1.9.3 fails rubocop test if this cop is enabled.
-# Development is done on 2.1.0, so I could either allow failures for any
-# other versions, or disable this cop and continue to try and maintain compat.
-Encoding:
-  Enabled: false
-
 # Most projects I work on have this length restriction, as 80 charachters are
 # too few for some of the longer expressions with expressive variable names.
 # The alternative is to spend more time scaffolding helper methods that do a
