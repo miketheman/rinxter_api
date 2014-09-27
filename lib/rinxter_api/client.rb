@@ -1,11 +1,11 @@
+# encoding: utf-8
 require 'httparty'
 
 module RinxterApi
-  # A generalized WebCall class to be used any time you wish to perform
-  # an API call.
+  # A general Client class
   # @author Mike Fiedler <miketheman@gmail.com>
   # @since 0.1.0
-  class WebCall
+  class Client
     include HTTParty
 
     # Association code in repository. Acceptable values are: 'wftda', 'mrda'
@@ -21,6 +21,10 @@ module RinxterApi
 
     # Enable HTTParty debugging by setting `DEBUG=true` in environment
     debug_output $stderr if ENV['DEBUG'] == true
+
+    # New RinxterApi::Client class
+    def initialize
+    end
 
     # Perform the HTTP `get` call and parse the response
     # Catch any non-200 response codes and raise the issue to the end-user
@@ -46,9 +50,9 @@ module RinxterApi
         # return the parsed response instead of the response.body, save
         # us the trouble of re-parsing it.
         response.parsed_response
-      # else
-      #   # catch any other issues with the web call.
-      #   fail response.response
+      else
+        # catch any other issues with the web call.
+        fail response.response
       end
     end
   end

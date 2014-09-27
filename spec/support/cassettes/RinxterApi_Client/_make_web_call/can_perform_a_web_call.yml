@@ -1,0 +1,262 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.rinxter.net/wftda/ds?output=obj&type=leagueList
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: '[{"id":"236","name":"Alamo City Roller Girls","abbr":"ALAMO","leagueAbbr":"ALAMO","url":"","location":"","region":"","joinDate":"2008-02-01"},{"joinDate":"2008-02-01","region":"Division
+        2","id":"113","leagueAbbr":"ALAMOCITY","location":"","name":"Alamo City Rollergirls","abbr":"ALAMOCITY","url":""},{"joinDate":"2011-08-31","region":"","id":"38","leagueAbbr":"ALBANY","location":"Albany,
+        NY","name":"Albany All-Stars Roller Derby","abbr":"ALBANY","url":"www.albanyallstars.com"},{"joinDate":"2008-01-01","region":"Division
+        1","id":"48","leagueAbbr":"ANGELCITY","location":"Los Angeles, CA","name":"Angel
+        City Derby Girls","abbr":"ANGELCITY","url":"www.angelcityderbygirls.com"},{"joinDate":"2013-06-03","region":"","id":"199","leagueAbbr":"ANNARBOR","location":"","name":"Ann
+        Arbor Derby Dimes","abbr":"ANNARBOR","url":""},{"joinDate":"2008-02-01","region":"Division
+        1","id":"64","leagueAbbr":"ARCHRIVAL","location":"St. Louis, MO","name":"Arch
+        Rival Roller Girls","abbr":"ARCHRIVAL","url":""},{"joinDate":"2012-06-24","region":"Division
+        1","id":"159","leagueAbbr":"ARIZONA","location":"Tempe, AZ","name":"Arizona
+        Roller Derby","abbr":"ARIZONA","url":""},{"joinDate":"2011-08-31","region":"","id":"37","leagueAbbr":"ASSAULT","location":"Syracuse,
+        NY","name":"Assault City Roller Derby","abbr":"ASSAULT","url":"www.assaultcityrollerderby.com"},{"joinDate":"2008-02-01","region":"Division
+        1","id":"58","leagueAbbr":"ATLANTA","location":"Atlanta, GA","name":"Atlanta
+        Rollergirls","abbr":"ATLANTA","url":""},{"joinDate":"2013-06-26","region":"","id":"202","leagueAbbr":"AULDREEKIE","location":"","name":"Auld
+        Reekie Roller Girls","abbr":"AULDREEKIE","url":""},{"joinDate":"2014-03-06","region":"","id":"211","leagueAbbr":"AURORA","location":"Aurora,
+        IL","name":"Aurora 88''s","abbr":"AURORA","url":"www.aurora88s.com"},{"joinDate":"2008-02-01","region":"Division
+        2","id":"82","leagueAbbr":"BABECITY","location":"","name":"Babe City Rollergirls","abbr":"BABECITY","url":""},{"joinDate":"2014-06-21","region":"","id":"222","leagueAbbr":"bandb","location":"","name":"Black
+        n Bluegrass","abbr":"bandb","url":""},{"joinDate":"2011-10-02","region":"Division
+        1","id":"49","leagueAbbr":"BAYAREA","location":"San Francisco, CA","name":"Bay
+        Area Derby Girls","abbr":"BAYAREA","url":"www.bayareaderbygirls.com"},{"joinDate":"2012-05-26","region":"","id":"140","leagueAbbr":"Beach","location":"","name":"BeachCon!","abbr":"Beach","url":""},{"joinDate":"2014-08-15","region":"Division
+        2","id":"233","leagueAbbr":"BEAR","location":"Berlin, Germany","name":"Bear
+        City Roller Derby","abbr":"BEAR","url":""},{"joinDate":"2012-04-22","region":"Division
+        1","id":"74","leagueAbbr":"BHRD","location":" Bloomington, IN","name":"Bleeding
+        Heartland Roller Derby","abbr":"BHRD","url":"http:\/\/bleedingheartlandrollerderby.com\/"},{"joinDate":"2008-02-01","region":"Division
+        2","id":"95","leagueAbbr":"BIGEASY","location":"","name":"Big Easy Rollergirls","abbr":"BIGEASY","url":""},{"joinDate":"2011-08-08","region":"Division
+        2","id":"28","leagueAbbr":"BLUERIDGE","location":"Asheville, NC","name":"Blue
+        Ridge Roller Girls","abbr":"BLUERIDGE","url":"http:\/\/www.blueridgerollergirls.com\/"},{"joinDate":"2008-01-01","region":"Division
+        1","id":"21","leagueAbbr":"BOSTON","location":"Boston, MA","name":"Boston
+        Derby Dames","abbr":"BOSTON","url":"http:\/\/www.bostonderbydames.com"},{"joinDate":"2014-08-15","region":"Division
+        2","id":"232","leagueAbbr":"BOULDER","location":"Longmont, CO","name":"Boulder
+        County Bombers","abbr":"BOULDER","url":""},{"joinDate":"2014-06-12","region":"Division
+        2","id":"216","leagueAbbr":"BRANDYWINE","location":"Downingtown, PA","name":"Brandywine
+        Roller Girls","abbr":"BRANDYWINE","url":""},{"joinDate":"2008-02-01","region":"Division
+        1","id":"66","leagueAbbr":"BREWCITY","location":"Milwaukee, WI","name":"Brewcity
+        Bruisers","abbr":"BREWCITY","url":""},{"joinDate":"2008-02-01","region":"Division
+        2","id":"89","leagueAbbr":"BURNING","location":"","name":"Burning River Roller
+        Girls","abbr":"BURNING","url":""},{"joinDate":"2014-06-22","region":"","id":"226","leagueAbbr":"CANADA","location":"Canada","name":"Team
+        Canada","abbr":"CANADA","url":""},{"joinDate":"2008-02-01","region":"","id":"237","leagueAbbr":"CEN-TEX","location":"","name":"Cen-Tex
+        RollerGirls","abbr":"CEN-TEX","url":""},{"joinDate":"2009-08-08","region":"Division
+        2","id":"27","leagueAbbr":"CFRG","location":"Wilmington, NC","name":"Cape
+        Fear Roller Girls","abbr":"CFRG","url":"http:\/\/www.capefearrollergirls.com"},{"joinDate":"2008-02-01","region":"","id":"133","leagueAbbr":"CHARLOTTE","location":"","name":"Charlotte
+        Roller Girls","abbr":"CHARLOTTE","url":""},{"joinDate":"2008-01-01","region":"Division
+        1","id":"2","leagueAbbr":"CHARMCITY","location":"Baltimore, MD","name":"Charm
+        City Roller Girls","abbr":"CHARMCITY","url":""},{"joinDate":"2008-02-01","region":"Division
+        1","id":"71","leagueAbbr":"CINCINNATI","location":"Cincinnati, OH","name":"Cincinnati
+        Rollergirls","abbr":"CINCINNATI","url":""},{"joinDate":"2011-09-28","region":"","id":"47","leagueAbbr":"CLASSIC","location":"","name":"Classic
+        City Rollergirls","abbr":"CLASSIC","url":""},{"joinDate":"2011-08-31","region":"Division
+        2","id":"36","leagueAbbr":"CNY","location":"Rome, NY","name":"Central New
+        York Roller Derby","abbr":"CNY","url":"www.cnyrollerderby.com"},{"joinDate":"2008-02-01","region":"","id":"208","leagueAbbr":"COLUMBIA","location":"","name":"Columbia
+        QuadSquad","abbr":"COLUMBIA","url":""},{"joinDate":"2008-02-01","region":"","id":"123","leagueAbbr":"COMO","location":"","name":"CoMo
+        Derby Dames ","abbr":"COMO","url":""},{"joinDate":"2011-09-14","region":"Division
+        2","id":"40","leagueAbbr":"CRG","location":"Raleigh, NC","name":"Carolina
+        Rollergirls","abbr":"CRG","url":"www.carolinarollergirls.com"},{"joinDate":"2014-06-12","region":"","id":"218","leagueAbbr":"CRIME","location":"Malmo,
+        Sweden","name":"Crime City Rollers","abbr":"CRIME","url":""},{"joinDate":"2008-02-01","region":"Division
+        2","id":"127","leagueAbbr":"CTRG","location":"","name":"CT RollerGirls","abbr":"CTRG","url":""},{"joinDate":"2014-06-12","region":"","id":"217","leagueAbbr":"CVILLE","location":"Charlottesville","name":"Charlottesville
+        Derby Dames","abbr":"CVILLE","url":""},{"joinDate":"2014-05-28","region":"Division
+        3","id":"214","leagueAbbr":"CVRG","location":"Chippewa Valley, WI","name":"Chippewa
+        Valley Roller Girls","abbr":"CVRG","url":""},{"joinDate":"2008-02-01","region":"","id":"108","leagueAbbr":"DAKOTA","location":"","name":"Dakota
+        City Demolition Crew","abbr":"DAKOTA","url":""},{"joinDate":"2008-02-01","region":"Division
+        2","id":"100","leagueAbbr":"DALLAS","location":"","name":"Dallas Derby Devils","abbr":"DALLAS","url":""},{"joinDate":"2011-06-16","region":"Division
+        1","id":"23","leagueAbbr":"DCRG","location":"Washington, D.C.","name":"DC
+        Rollergirls","abbr":"DCRG","url":"www.dcrollergirls.com"},{"joinDate":"2008-02-01","region":"Division
+        2","id":"155","leagueAbbr":"DEMOLITION","location":"","name":"Demolition City
+        Roller Derby","abbr":"DEMOLITION","url":""},{"joinDate":"2011-08-02","region":"Division
+        1","id":"26","leagueAbbr":"DENVER","location":"Denver, CO","name":"Denver
+        Roller Dolls","abbr":"DENVER","url":"http:\/\/www.denverrollerdolls.org\/"},{"joinDate":"2008-02-01","region":"Division
+        2","id":"101","leagueAbbr":"DESMOINES","location":"","name":"Des Moines Derby
+        Dames","abbr":"DESMOINES","url":""},{"joinDate":"2008-02-01","region":"Division
+        1","id":"68","leagueAbbr":"DETROIT","location":"Detroit, MI","name":"Detroit
+        Derby Girls","abbr":"DETROIT","url":""},{"joinDate":"2008-02-01","region":"","id":"189","leagueAbbr":"DIAMOND","location":"","name":"DIAMOND
+        STATE","abbr":"DIAMOND","url":""},{"joinDate":"2008-02-01","region":"","id":"75","leagueAbbr":"DOCKYARD","location":"","name":"Dockyard
+        Derby Dames","abbr":"DOCKYARD","url":""},{"joinDate":"2011-08-17","region":"Division
+        2","id":"31","leagueAbbr":"DOMINION","location":"Virginia Beach, VA","name":"Dominion
+        Derby Girls","abbr":"DOMINION","url":"http:\/\/www.domintionderbygirls.net"},{"joinDate":"2008-02-01","region":"Division
+        2","id":"109","leagueAbbr":"DUKE","location":"","name":"Duke City Derby ","abbr":"DUKE","url":""},{"joinDate":"2011-09-14","region":"Division
+        1","id":"41","leagueAbbr":"DUTCHLAND","location":"Lancaster, PA","name":"Dutchland
+        Derby Rollers","abbr":"DUTCHLAND","url":"http:\/\/dutchlandrollers.com\/"},{"joinDate":"2012-08-25","region":"Division
+        2","id":"173","leagueAbbr":"ECRG","location":"Eugene, OR","name":"Emerald
+        City Roller Girls","abbr":"ECRG","url":""},{"joinDate":"2014-06-21","region":"","id":"223","leagueAbbr":"EERIE","location":"","name":"Eerie
+        Roller Girls","abbr":"EERIE","url":""},{"joinDate":"2008-02-01","region":"Division
+        2","id":"81","leagueAbbr":"FARGO","location":"","name":"Fargo Moorhead Derby
+        Girls","abbr":"FARGO","url":""},{"joinDate":"2008-02-01","region":"Division
+        2","id":"152","leagueAbbr":"FORT","location":"","name":"Fort Wayne Derby Girls","abbr":"FORT","url":""},{"joinDate":"2014-05-28","region":"Division
+        3","id":"213","leagueAbbr":"FOXZ","location":"Fox Cities, WI","name":"Fox
+        Cityz Foxz","abbr":"FOXZ","url":""},{"joinDate":"2013-06-26","region":"","id":"203","leagueAbbr":"GLASGOW","location":"","name":"Glasgow
+        Roller Derby","abbr":"GLASGOW","url":""},{"joinDate":"2008-02-01","region":"Division
+        2","id":"130","leagueAbbr":"GMDD","location":"","name":"Green Mountain Derby
+        Dames","abbr":"GMDD","url":""},{"joinDate":"2008-02-01","region":"Division
+        2","id":"158","leagueAbbr":"GOLD","location":"","name":"Gold Coast Derby Grrls","abbr":"GOLD","url":""},{"joinDate":"2008-01-01","region":"Division
+        1","id":"1","leagueAbbr":"GOTHAM","location":"New York, NY","name":"Gotham
+        Girls Roller Derby","abbr":"GOTHAM","url":"http:\/\/www.gothamgirlsrollerderby.com"},{"joinDate":"2008-02-01","region":"Division
+        1","id":"148","leagueAbbr":"GRAND","location":"","name":"Grand Raggidy Roller
+        Girls","abbr":"GRAND","url":""},{"joinDate":"2008-02-01","region":"","id":"52","leagueAbbr":"GREEN","location":"","name":"Green
+        Country Roller Girls","abbr":"GREEN","url":""},{"joinDate":"2011-07-12","region":"","id":"24","leagueAbbr":"GSR","location":"Newark,
+        NJ","name":"Garden State Rollergirls","abbr":"GSR","url":"www.gardenstaterollergirls.com"},{"joinDate":"2008-02-01","region":"","id":"77","leagueAbbr":"HAMMER","location":"","name":"Hammer
+        City Roller Girls","abbr":"HAMMER","url":""},{"joinDate":"2008-02-01","region":"Division
+        2","id":"129","leagueAbbr":"HARD","location":"","name":"Hard Knox Roller Girls","abbr":"HARD","url":""},{"joinDate":"2008-02-01","region":"","id":"85","leagueAbbr":"HARRISBURG","location":"","name":"Harrisburg
+        Area Roller Derby","abbr":"HARRISBURG","url":""},{"joinDate":"2013-06-06","region":"","id":"200","leagueAbbr":"HARTFORD","location":"Manchester,
+        CT","name":"Hartford Area Roller Derby","abbr":"HARTFORD","url":""},{"joinDate":"2011-08-31","region":"","id":"35","leagueAbbr":"HELLIONS","location":"Troy,
+        NY","name":"Hellions of Troy Roller Derby","abbr":"HELLIONS","url":"www.hellionsoftroyrollerderby.com"},{"joinDate":"2008-02-01","region":"","id":"135","leagueAbbr":"HELSINKI","location":"","name":"Helsinki
+        Roller Derby","abbr":"HELSINKI","url":""},{"joinDate":"2008-02-01","region":"Division
+        1","id":"59","leagueAbbr":"HOUSTON","location":"Houston, TX","name":"Houston
+        Roller Derby","abbr":"HOUSTON","url":""},{"joinDate":"2011-08-31","region":"","id":"34","leagueAbbr":"HUDSON","location":"Hudson
+        Valley, NY","name":"Hudson Valley Horrors Roller Derby","abbr":"HUDSON","url":"www.horrorsrollerderby.com"},{"joinDate":"2008-02-01","region":"","id":"94","leagueAbbr":"ICT","location":"","name":"ICT
+        Roller Girls","abbr":"ICT","url":""},{"joinDate":"2013-06-02","region":"","id":"198","leagueAbbr":"IRM","location":"","name":"Iron
+        Range Maidens","abbr":"IRM","url":""},{"joinDate":"2011-08-31","region":"Division
+        2","id":"33","leagueAbbr":"ITHACA","location":"Ithaca, NY","name":"Ithaca
+        League of Women Rollers","abbr":"ITHACA","url":"www.ithacarollerderby.com"},{"joinDate":"2012-09-30","region":"Division
+        1","id":"184","leagueAbbr":"JACKSON","location":"Jacksonville, FL","name":"Jacksonville
+        RollerGirls","abbr":"JACKSON","url":""},{"joinDate":"2011-09-21","region":"Division
+        2","id":"44","leagueAbbr":"JET","location":"","name":"Jet City Rollergirls","abbr":"JET","url":"Everett,
+        WA"},{"joinDate":"2011-10-17","region":"","id":"51","leagueAbbr":"JSRG","location":"","name":"Jersey
+        Shore Roller Girs","abbr":"JSRG","url":""},{"joinDate":"2008-02-01","region":"","id":"83","leagueAbbr":"JUNCTION","location":"","name":"Junction
+        City Roller Dolls ","abbr":"JUNCTION","url":""},{"joinDate":"2008-02-01","region":"Division
+        1","id":"13","leagueAbbr":"KANSAS","location":"Kansas City, MO","name":"Kansas
+        City Roller Warriors","abbr":"KANSAS","url":""},{"joinDate":"2008-02-01","region":"Division
+        2","id":"87","leagueAbbr":"KILLAMAZOO","location":"","name":"Killamazoo Derby
+        Darlins","abbr":"KILLAMAZOO","url":""},{"joinDate":"2014-03-25","region":"","id":"212","leagueAbbr":"LADD","location":"Los
+        Angeles, CA","name":"L.A. Derby Dolls","abbr":"LADD","url":""},{"joinDate":"2011-03-05","region":"Division
+        2","id":"18","leagueAbbr":"LIRR","location":"Long Island, NY","name":"Long
+        Island Roller Rebels","abbr":"LIRR","url":""},{"joinDate":"2011-09-08","region":"Division
+        1","id":"39","leagueAbbr":"LONDON","location":"London, UK","name":"London
+        Rollergirls","abbr":"LONDON","url":"http:\/\/www.londonrollergirls.com\/"},{"joinDate":"2011-11-06","region":"","id":"72","leagueAbbr":"LOWCOUNTRY","location":"Charleston
+        SC","name":"Lowcountry Highrollers","abbr":"LOWCOUNTRY","url":""},{"joinDate":"2012-05-14","region":"","id":"103","leagueAbbr":"LVRG","location":"
+        Schnecksville, PA","name":"Lehigh Valley Rollergirls","abbr":"LVRG","url":"http:\/\/www.lehighvalleyrollergirls.com\/"},{"joinDate":"2004-11-07","region":"Division
+        1","id":"69","leagueAbbr":"MAD","location":"Madison, WI","name":"Mad Rollin''
+        Dolls","abbr":"MAD","url":"www.madrollindolls.com"},{"joinDate":"2011-09-14","region":"Division
+        2","id":"42","leagueAbbr":"MAINE","location":"Portland, ME","name":"Maine
+        Roller Derby","abbr":"MAINE","url":"www.mainerollerderby.com"},{"joinDate":"2008-02-01","region":"","id":"176","leagueAbbr":"MASON","location":"","name":"Mason
+        Dixon Roller Vixens","abbr":"MASON","url":""},{"joinDate":"2008-02-01","region":"","id":"205","leagueAbbr":"MASS","location":"","name":"Mass
+        Maelstrom","abbr":"MASS","url":""},{"joinDate":"2008-02-01","region":"Division
+        2","id":"93","leagueAbbr":"MEMPHIS","location":"","name":"Memphis Roller Derby","abbr":"MEMPHIS","url":""},{"joinDate":"2008-02-01","region":"","id":"180","leagueAbbr":"MIAMI\/","location":"","name":"Miami\/
+        Gold Coast","abbr":"MIAMI\/","url":""},{"joinDate":"2008-02-01","region":"Division
+        2","id":"102","leagueAbbr":"MID","location":"","name":"Mid Iowa Rollers","abbr":"MID","url":""},{"joinDate":"2008-02-01","region":"Division
+        1","id":"7","leagueAbbr":"MNRG","location":"Minneapolis, MN","name":"Minnesota
+        RollerGirls","abbr":"MNRG","url":""},{"joinDate":"2008-02-01","region":"Division
+        1","id":"207","leagueAbbr":"MONTREAL","location":"","name":"Montreal Roller
+        Derby","abbr":"MONTREAL","url":""},{"joinDate":"2012-06-12","region":"","id":"149","leagueAbbr":"MRDA","location":"","name":"Men''s
+        Roller Derby Association","abbr":"MRDA","url":""},{"joinDate":"2008-02-01","region":"Division
+        1","id":"70","leagueAbbr":"NAPTOWN","location":"Indianapolis, IN","name":"Naptown
+        Roller Girls","abbr":"NAPTOWN","url":""},{"joinDate":"2008-02-01","region":"Division
+        1","id":"10","leagueAbbr":"NASHVILLE","location":"Nashville, TN","name":"Nashville
+        Rollergirls","abbr":"NASHVILLE","url":""},{"joinDate":"2008-02-01","region":"Division
+        2","id":"88","leagueAbbr":"NEO","location":"","name":"NEO Roller Derby","abbr":"NEO","url":""},{"joinDate":"2008-02-01","region":"","id":"204","leagueAbbr":"NEW","location":"","name":"New
+        York Shock Exchange","abbr":"NEW","url":""},{"joinDate":"2008-02-01","region":"","id":"128","leagueAbbr":"NEW","location":"","name":"New
+        River Valley Roller Girls","abbr":"NEW","url":""},{"joinDate":"2008-02-01","region":"Division
+        1","id":"132","leagueAbbr":"NEWHAM","location":"","name":"New Hampshire Roller
+        Derby","abbr":"NEWHAM","url":""},{"joinDate":"2008-02-01","region":"Division
+        1","id":"54","leagueAbbr":"NOCOAST","location":"Lincoln, NE","name":"No Coast
+        Derby Girls","abbr":"NOCOAST","url":""},{"joinDate":"2008-02-01","region":"Division
+        2","id":"86","leagueAbbr":"NORTH","location":"","name":"North Star Roller
+        Girls","abbr":"NORTH","url":""},{"joinDate":"2008-02-01","region":"","id":"124","leagueAbbr":"NORTHWEST","location":"","name":"Northwest
+        Arkansas Roller Derby ","abbr":"NORTHWEST","url":""},{"joinDate":"2012-01-09","region":"","id":"73","leagueAbbr":"NRV","location":"Christiansburg,
+        VA","name":"NRV Rollergirls","abbr":"NRV","url":""},{"joinDate":"2011-02-08","region":"","id":"17","leagueAbbr":"OCRG","location":"huntington
+        beach, ca","name":"Orange County Roller Girls","abbr":"OCRG","url":"http:\/\/ocrollergirls.com\/"},{"joinDate":"2008-02-01","region":"Division
+        1","id":"67","leagueAbbr":"OHIO","location":"Columbus, OH","name":"Ohio Roller
+        Girls","abbr":"OHIO","url":""},{"joinDate":"2008-02-01","region":"","id":"106","leagueAbbr":"OKLAHOMA","location":"","name":"Oklahoma
+        Victory Dolls","abbr":"OKLAHOMA","url":""},{"joinDate":"2008-02-01","region":"Division
+        2","id":"79","leagueAbbr":"OLD","location":"","name":"Old Capital City Roller
+        Girls","abbr":"OLD","url":""},{"joinDate":"2008-02-01","region":"Division
+        1","id":"9","leagueAbbr":"OLY","location":"Olympia, WA","name":"Oly Rollers","abbr":"OLY","url":""},{"joinDate":"2008-02-01","region":"Division
+        1","id":"99","leagueAbbr":"OMAHA","location":"Omaha, NE","name":"Omaha Rollergirls","abbr":"OMAHA","url":""},{"joinDate":"2008-02-01","region":"Division
+        1","id":"65","leagueAbbr":"OUTFIT","location":"Chicago, IL","name":"The Chicago
+        Outfit","abbr":"OUTFIT","url":""},{"joinDate":"2008-02-01","region":"Division
+        2","id":"151","leagueAbbr":"PAPER","location":"","name":"Paper Valley Roller
+        Girls","abbr":"PAPER","url":""},{"joinDate":"2008-02-01","region":"Division
+        2","id":"57","leagueAbbr":"PIKES","location":"","name":"Pikes Peak Derby Dames","abbr":"PIKES","url":""},{"joinDate":"2013-03-22","region":"","id":"196","leagueAbbr":"PMRD","location":"","name":"Portland
+        Mens Roller Derby","abbr":"PMRD","url":""},{"joinDate":"2008-01-01","region":"Division
+        2","id":"5","leagueAbbr":"PRD","location":"Providence, RI","name":"Providence
+        Roller Derby","abbr":"PRD","url":""},{"joinDate":"2008-02-01","region":"Division
+        1","id":"142","leagueAbbr":"PRG","location":"Philadelphia, PA","name":"Philly
+        Roller Girls","abbr":"PRG","url":"http:\/\/phillyrollergirls.com\/"},{"joinDate":"2011-08-13","region":"","id":"29","leagueAbbr":"PSRG","location":"Myrtle
+        Beach, SC","name":"Palmetto State Roller Girls","abbr":"PSRG","url":"http:\/\/www.palmettostaterollergirls.com"},{"joinDate":"2008-02-01","region":"","id":"56","leagueAbbr":"PUEBLO","location":"Pueblo,
+        CO","name":"Pueblo Derby Devil Dollz","abbr":"PUEBLO","url":"http:\/\/www.puebloderbydevildollz.com"},{"joinDate":"2011-07-12","region":"Division
+        2","id":"25","leagueAbbr":"QCRG","location":"Buffalo, NY","name":"Queen City
+        Roller Girls","abbr":"QCRG","url":"www.qcrg.net"},{"joinDate":"2011-09-21","region":"Division
+        1","id":"43","leagueAbbr":"RCR","location":"Portland, OR","name":"Rose City
+        Rollers","abbr":"RCR","url":""},{"joinDate":"2011-09-21","region":"Division
+        1","id":"46","leagueAbbr":"RCRG","location":"Seattle, WA","name":"Rat City
+        Rollergirls","abbr":"RCRG","url":""},{"joinDate":"2008-02-01","region":"","id":"80","leagueAbbr":"RIDEAU","location":"","name":"Rideau
+        Valley Roller Girls","abbr":"RIDEAU","url":""},{"joinDate":"2011-08-15","region":"Division
+        2","id":"30","leagueAbbr":"RIVER","location":"Richmond, VA","name":"River
+        City Rollergirls","abbr":"RIVER","url":"http:\/\/www.rivercityrollergirls.org"},{"joinDate":"2011-08-31","region":"Division
+        2","id":"32","leagueAbbr":"ROC","location":"Rochester, NY","name":"Roc City
+        Roller Derby","abbr":"ROC","url":"www.rocderby.com"},{"joinDate":"2008-02-01","region":"","id":"137","leagueAbbr":"ROCKTOWN","location":"","name":"Rocktown
+        Rollers","abbr":"ROCKTOWN","url":""},{"joinDate":"2008-02-01","region":"Division
+        1","id":"117","leagueAbbr":"ROCKY","location":"Denver, CO","name":"Rocky Mountain
+        Rollergirls","abbr":"ROCKY","url":""},{"joinDate":"2008-02-01","region":"","id":"139","leagueAbbr":"ROYAL","location":"","name":"Royal
+        Windsor Roller Girls","abbr":"ROYAL","url":""},{"joinDate":"2008-02-01","region":"Division
+        1","id":"50","leagueAbbr":"SACRED","location":"Sacramento, CA","name":"Sacred
+        City Derby Girls","abbr":"SACRED","url":"www.sacredcityderbygirls.com"},{"joinDate":"2013-08-23","region":"Division
+        2","id":"210","leagueAbbr":"SANTA","location":"","name":"Santa Cruz Roller
+        Derby","abbr":"SANTA","url":""},{"joinDate":"2014-07-10","region":"","id":"227","leagueAbbr":"SCAR","location":"St.
+        Cloud, MN","name":"SCAR Dolls","abbr":"SCAR","url":""},{"joinDate":"2011-04-30","region":"Division
+        1","id":"20","leagueAbbr":"SCDD","location":"Pittsburg, PA","name":"Steel
+        City Roller Derby","abbr":"SCDD","url":""},{"joinDate":"2013-08-23","region":"Division
+        2","id":"209","leagueAbbr":"SCR","location":"","name":"Sac City Roller","abbr":"SCR","url":""},{"joinDate":"2013-02-06","region":"","id":"193","leagueAbbr":"Scrimmage","location":"","name":"Rose
+        City - Scrimmage","abbr":"Scrimmage","url":""},{"joinDate":"2008-02-01","region":"Division
+        2","id":"201","leagueAbbr":"SIN","location":"","name":"Fabulous Sin City Rollergirls","abbr":"SIN","url":""},{"joinDate":"2008-02-01","region":"Division
+        2","id":"119","leagueAbbr":"SIOUXCITY","location":"","name":"Sioux City Roller
+        Dames","abbr":"SIOUXCITY","url":""},{"joinDate":"2008-02-01","region":"Division
+        2","id":"175","leagueAbbr":"SIOUXFALLS","location":"","name":"Sioux Falls
+        Roller Dollz","abbr":"SIOUXFALLS","url":""},{"joinDate":"2014-08-15","region":"Division
+        1","id":"234","leagueAbbr":"SOCAL","location":"","name":"SoCal Derby","abbr":"SOCAL","url":""},{"joinDate":"2008-02-01","region":"","id":"118","leagueAbbr":"SOUTHERN","location":"","name":"Southern
+        Illinois Roller Girls","abbr":"SOUTHERN","url":""},{"joinDate":"2008-02-01","region":"","id":"168","leagueAbbr":"SPINDLETOP","location":"","name":"Spindletop
+        Roller Girls","abbr":"SPINDLETOP","url":""},{"joinDate":"2008-01-01","region":"Division
+        2","id":"4","leagueAbbr":"SRB","location":"White Plains, NY","name":"Suburbia
+        Roller Derby","abbr":"SRB","url":""},{"joinDate":"2008-02-01","region":"","id":"194","leagueAbbr":"ST.","location":"","name":"St.
+        Chux Derby Chix","abbr":"ST.","url":""},{"joinDate":"2012-07-05","region":"","id":"161","leagueAbbr":"STX","location":"","name":"Star
+        of Texas","abbr":"STX","url":""},{"joinDate":"2012-09-29","region":"Division
+        1","id":"183","leagueAbbr":"TAMPA","location":"Tampa, FL","name":"Tampa Roller
+        Derby","abbr":"TAMPA","url":""},{"joinDate":"2008-02-01","region":"Division
+        1","id":"76","leagueAbbr":"TERMINAL","location":"","name":"Terminal City Rollergirls","abbr":"TERMINAL","url":""},{"joinDate":"2012-11-24","region":"","id":"192","leagueAbbr":"TEST","location":"Eastville,
+        FL","name":"Test","abbr":"TEST","url":""},{"joinDate":"2008-02-01","region":"Division
+        1","id":"11","leagueAbbr":"TEXAS","location":"Austin, TX","name":"Texas Rollergirls","abbr":"TEXAS","url":""},{"joinDate":"2014-06-12","region":"","id":"219","leagueAbbr":"TIGER","location":"Cardiff,
+        Wales","name":"Tiger Bay Brawlers","abbr":"TIGER","url":""},{"joinDate":"2008-02-01","region":"Division
+        1","id":"116","leagueAbbr":"TORONTO","location":"","name":"Toronto Roller
+        Derby","abbr":"TORONTO","url":""},{"joinDate":"2008-02-01","region":"Division
+        2","id":"150","leagueAbbr":"TREASURE","location":"","name":"Treasure Valley
+        Roller Girls ","abbr":"TREASURE","url":""},{"joinDate":"2012-05-15","region":"Division
+        1","id":"112","leagueAbbr":"TRG","location":"Tallahassee, FL","name":"Tallahassee
+        Rollergirls","abbr":"TRG","url":""},{"joinDate":"2008-02-01","region":"Division
+        2","id":"98","leagueAbbr":"TRI-CITY","location":"","name":"Tri-City Roller
+        Girls","abbr":"TRI-CITY","url":""},{"joinDate":"2011-09-21","region":"Division
+        2","id":"45","leagueAbbr":"TUCSON","location":"Tucson, AZ","name":"Tucson
+        Roller Derby","abbr":"TUCSON","url":""},{"joinDate":"2014-06-22","region":"","id":"225","leagueAbbr":"USA","location":"USA","name":"Team
+        USA","abbr":"USA","url":""},{"joinDate":"2013-05-17","region":"Division 1","id":"197","leagueAbbr":"VRDL","location":"Melbourne,
+        Australia","name":"Victorian Roller Derby League","abbr":"VRDL","url":""},{"joinDate":"2008-02-01","region":"Division
+        1","id":"84","leagueAbbr":"WASATCH","location":"Salt Lake City, UT","name":"Wasatch
+        Roller Derby","abbr":"WASATCH","url":""},{"joinDate":"2008-02-01","region":"","id":"169","leagueAbbr":"WEST","location":"","name":"West
+        Texas ","abbr":"WEST","url":""},{"joinDate":"2008-01-01","region":"","id":"6","leagueAbbr":"WFTDA","location":"","name":"Women''s
+        Flat Track Derby Association","abbr":"WFTDA","url":""},{"joinDate":"2008-02-01","region":"Division
+        1","id":"15","leagueAbbr":"WINDY","location":"Chicago, IL","name":"Windy City
+        Rollers","abbr":"WINDY","url":""}]'
+    http_version: 
+  recorded_at: Sat, 27 Sep 2014 23:17:23 GMT
+recorded_with: VCR 2.9.3
